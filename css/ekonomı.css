@@ -1,0 +1,163 @@
+style
+        *{
+            box-sizing: border-box;
+        }
+ 
+        html{
+            font-size:62.5%;/*1rem = 10px*/
+        }
+ 
+        body,h1,h2,ul{
+            margin:0;
+            padding:0;
+            
+        }
+        ul{
+            list-style: none;
+        }
+ 
+        /*******************/
+        body{
+            font-family: 'Nunito Sans', sans-serif;
+        }
+        .arkaplan{
+            background-color: #000000;
+        }
+        .kapsayici{
+            width: 960px;
+            margin:0 auto;
+        }
+        
+        .ust{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            min-height: 200px;
+        }
+ 
+        .ust .logo{
+            text-align: center;
+            color:#fff;
+        }
+        .ust .logo h1{
+            font-size:4rem;
+            letter-spacing: .5rem;
+        }
+ 
+        .ust .logo h1::first-letter{
+            color:#FCB941;
+        }
+ 
+        .ust .logo h1:hover::first-letter{
+            background-color: #FCB941;
+            color:#851808;
+        }
+ 
+        .ust .logo h2{
+            font-size:2.4rem;
+        }
+ 
+        
+        .ust .menu ul{
+            display: flex;
+            
+        }
+        .ust .menu ul li{
+            margin:0 1rem;
+        }
+ 
+        .ust .menu ul a{
+            color:#fff;
+            text-decoration: none;
+            font-size:2rem;
+            padding:0 1rem;
+        }
+        .ust .menu ul a:hover{
+            color:#FCB941;
+        }
+
+        #ekonomi{
+            text-align: center;
+            text-transform: capitalize;
+            font-weight: 600;
+            
+        }
+        #h-3{
+            font-size: 40px;
+            font-weight: 600;
+        }
+        #container{
+        font-weight: 600;
+        font-size: 22px;
+        padding: 20px;
+        }
+        #sol{
+            float: left;
+            border-right: 3px solid #445c6e;
+            font-size: 20px;
+            width: 220px;
+            color: #445c6e;
+            padding: 10px 0px;
+        }
+        #h5sol{
+            line-height: 1.3;
+            font-size: 25px;
+            font-weight: 600;
+            width: 200px;
+        }
+        #h5sol, #sag{
+            margin: 10px;
+            padding: 0;
+            margin-top: 10px;
+            
+        }
+
+        #sag{
+            float: right;
+            width: 1050px;
+            color: #999999;
+        }
+        .yazı{
+            text-align: center;
+            color: red;
+            font-size: 15px;
+        }
+
+        .l{
+            margin-left: 10px;
+            text-align: left;
+            font-size: 20px;
+            margin-bottom: 30px;
+        }
+        .fr{
+            text-align: center;
+            font-size: 10px;
+            margin-left: 30px;
+            margin: 30px;
+            color: #445c6e;
+        }
+        .euro{
+            text-align: center;
+            font-size: 10px;
+            margin-left: 30px;
+            color: #445c6e;
+        }
+
+ 
+        .alt{
+            margin-top:50px;
+            padding:20px 0;
+            column-gap:60px;
+        }
+
+ 
+        .cizgi{
+            border-top:dotted 1px #FCB941;
+            margin:20px 0;
+        }
+ 
+
+
+
+
+    

@@ -1,0 +1,208 @@
+style
+        *{
+            box-sizing: border-box;
+        }
+ 
+        html{
+            font-size:62.5%;
+        }
+ 
+        body,h1,h2,ul{
+            margin:0;
+            padding:0;
+            
+        }
+        ul{
+            list-style: none;
+        }
+ 
+   
+        body{
+            font-family: 'Nunito Sans', sans-serif;
+        }
+        .arkaplan{
+            background-color: #000000;
+        }
+        .kapsayici{
+            width: 960px;
+            margin:0 auto;
+        }
+        
+        .ust{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            min-height: 200px;
+        }
+ 
+        .ust .logo{
+            text-align: center;
+            color:#fff;
+        }
+        .ust .logo h1{
+            font-size:4rem;
+            letter-spacing: .5rem;
+        }
+ 
+        .ust .logo h1::first-letter{
+            color:#FCB941;
+        }
+ 
+        .ust .logo h1:hover::first-letter{
+            background-color: #FCB941;
+            color:#851808;
+        }
+ 
+        .ust .logo h2{
+            font-size:2.4rem;
+        }
+ 
+        
+        .ust .menu ul{
+            display: flex;
+            
+        }
+        .ust .menu ul li{
+            margin:0 1rem;
+        }
+ 
+        .ust .menu ul a{
+            color:#fff;
+            text-decoration: none;
+            font-size:2rem;
+            padding:0 1rem;
+        }
+        .ust .menu ul a:hover{
+            color:#FCB941;
+        }
+        .bas{
+            font-size: 3rem;
+            text-align: justify;
+            margin: 20px;
+            font-style: normal;
+        }
+
+ 
+        .orta .bolum2{
+            margin:50px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .orta .bolum2 .kutu{
+            flex-basis: 290px;
+            margin-left: 20px;
+        }
+ 
+        .orta .bolum2 .kutu h2{
+            font-size: 2rem;
+        }
+ 
+        .orta .bolum2 .kutu p{
+            font-size: 1.6rem;
+        }
+        .yazı{
+            text-align: center;
+            color: red;
+            font-size: 15px;
+        }
+
+        .l{
+            margin-left: 10px;
+            text-align: left;
+            font-size: 20px;
+            margin-bottom: 30px;
+        }
+
+        .h2{
+            text-align: justify;
+            font-size: 30 rem;
+        }
+
+ 
+        .alt{
+            margin-top:50px;
+            padding:20px 0;
+            column-gap:60px;
+        }
+
+ 
+        .cizgi{
+            border-top:dotted 1px #FCB941;
+            margin:20px 0;
+        }
+        
+        
+        .sayfa{
+        width: 700px;
+        margin: 0 auto;
+    }
+    .sliderKonum{
+        position: relative;
+        width: 700px;
+        height: 400px;
+        overflow: hidden;
+        
+    }
+.img-bir{left: 0px;}
+.img-iki{left: 700px;}
+.img-uc{left: 1400px;}
+
+
+.sliderKonum > .slider{
+    position: absolute;
+    left:0px;
+    width: 2800px;
+    height: 400px;
+    -webkit-animation-duration: 10s;
+    -webkit-animation-name: sliders;
+    -webkit-animation-iteration-count:infinite;
+    -moz-animation-duration: 10s;
+    -moz-animation-name: sliders;
+    -moz-animation-iteration-count:infinite;
+    -ms-animation-duration: 10s;
+    -ms-animation-name: sliders;
+    -ms-animation-iteration-count:infinite;
+    animation-duration: 10s;
+    animation-iteration-count:infinite;
+
+  }
+  
+  @-webkit-keyframes sliders{
+    0% {left:0px;}
+    10% {left:0px;}
+    20% {left:-700px;}
+    30% {left:-700px;}
+    40% {left:-1400px;}
+    50% {left:-1400px;}
+  }
+  @-moz-keyframes sliders{
+    0% {left:0px;}
+    10% {left:0px;}
+    20% {left:-700px;}
+    30% {left:-700px;}
+    40% {left:-1400px;}
+    50% {left:-1400px;}
+  }
+  @-ms-keyframes sliders {
+    0% {left:0px;}
+    10% {left:0px;}
+    20% {left:-700px;}
+    30% {left:-700px;}
+    40% {left:-1400px;}
+    50% {left:-1400px;}
+  }
+  @keyframes sliders{
+    0% {left:0px;}
+    10% {left:0px;}
+    20% {left:-700px;}
+    30% {left:-700px;}
+    40% {left:-1400px;}
+    50% {left:-1400px;}
+  }
+     
+ 
+
+
+
+
+    

@@ -1,0 +1,137 @@
+style
+        *{
+            box-sizing: border-box;
+        }
+ 
+        html{
+            font-size:62.5%;
+        }
+ 
+        body,h1,h2,ul{
+            margin:0;
+            padding:0;
+            
+        }
+        ul{
+            list-style: none;
+        }
+ 
+        /*******************/
+        body{
+            font-family: 'Nunito Sans', sans-serif;
+        }
+        .arkaplan{
+            background-color: #000000;
+        }
+        .kapsayici{
+            width: 960px;
+            margin:0 auto;
+        }
+        
+        .ust{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            min-height: 200px;
+        }
+ 
+        .ust .logo{
+            text-align: center;
+            color:#fff;
+        }
+        .ust .logo h1{
+            font-size:4rem;
+            letter-spacing: .5rem;
+        }
+ 
+        .ust .logo h1::first-letter{
+            color:#FCB941;
+        }
+ 
+        .ust .logo h1:hover::first-letter{
+            background-color: #FCB941;
+            color:#851808;
+        }
+ 
+        .ust .logo h2{
+            font-size:2.4rem;
+        }
+ 
+        
+        .ust .menu ul{
+            display: flex;
+            
+        }
+        .ust .menu ul li{
+            margin:0 1rem;
+        }
+ 
+        .ust .menu ul a{
+            color:#fff;
+            text-decoration: none;
+            font-size:2rem;
+            padding:0 1rem;
+        }
+        .ust .menu ul a:hover{
+            color:#FCB941;
+        }
+        .bas{
+            font-size: 3rem;
+            text-align: justify;
+            margin: 20px;
+            font-style: normal;
+        }
+
+ 
+        .orta .bolum2{
+            margin:50px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .orta .bolum2 .kutu{
+            flex-basis: 290px;
+            margin-left: 20px;
+        }
+ 
+        .orta .bolum2 .kutu h2{
+            font-size: 2rem;
+        }
+ 
+        .orta .bolum2 .kutu p{
+            font-size: 1.6rem;
+        }
+        .yazı{
+            text-align: center;
+            color: red;
+            font-size: 15px;
+        }
+
+        .l{
+            margin-left: 10px;
+            text-align: left;
+            font-size: 20px;
+            margin-bottom: 30px;
+        }
+        .h2{
+            text-align: justify;
+            font-size: 30 rem;
+        }
+
+ 
+        .alt{
+            margin-top:50px;
+            padding:20px 0;
+            column-gap:60px;
+        }
+
+ 
+        .cizgi{
+            border-top:dotted 1px #FCB941;
+            margin:20px 0;
+        }
+ 
+
+
+
+
+    
